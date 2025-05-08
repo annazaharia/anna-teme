@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 400px;
+  border: 2px solid #747272;
+  gap: 5px;
+  padding: 10px;
+  background-color: #e6e6e6;
+}
+
+.top-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.first-bar {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.first-bar p {
+  font-size: 14px;
+  color: #bdbcbc;
+}
+
+.icon {
+  color: #bdbcbc;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.second-bar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 4fr;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.second-bar p {
+  margin: 0;
+}
+
+.icon-1 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.zero {
+  font-size: 50px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.zero p {
+  padding: 30px 0;
+}
+
+.third-bar {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  align-items: center;
+  margin: 10px 0;
+  gap: 5px;
+}
+
+.third-bar p:hover {
+  background-color: #bdbcbc;
+}
+
+.number p,
+.third-bar p {
+  line-height: 2.6;
+  cursor: pointer;
+}
+
+.change {
+  color: #bdbcbc;
+}
+
+.number {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.number.highlight p {
+  background-color: #909090;
+}
+
+.number p.color-special {
+  background-color: #fafafa;
+  font-weight: 700;
+}
+
+.number p.color {
+  background-color: #8abae0;
+  color: white;
+}
+
+.number p:hover {
+  background-color: #e0e0e0;
+}
+
+.vertical {
+  vertical-align: middle;
+}
+
+.icon-2 {
+  display: grid;
+  justify-content: end;
+}

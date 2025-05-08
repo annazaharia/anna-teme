@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 350px;
+  border: 2px solid #747272;
+  font-size: 22px;
+  padding: 10px;
+  background-color: #eceaea;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+.first-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-bar p {
+  color: #bdbcbc;
+  font-size: 16px;
+}
+
+.icon {
+  color: #bdbcbc;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.second-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.second-bar p {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.icon-1 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.zero {
+  font-size: 50px;
+  text-align: right;
+  padding: 10px;
+}
+
+.second-bar-2 {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.second-bar-2 p {
+  font-size: 18px;
+}
+
+.third-bar {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.third-bar p {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.third-bar-2 {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.number {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.number p,
+.number span {
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.number p:hover,
+.number span:hover {
+  background-color: #e0e0e0;
+}
+
+.number p.color-special {
+  font-weight: 700;
+}
+
+.number p.color {
+  background-color: #8abae0;
+  color: white;
+}
+
+.icon-2 {
+  display: grid;
+  justify-content: end;
+}
+
+.change {
+  cursor: pointer;
+}
+
+.color-special {
+  background-color: #fafafa;
+}

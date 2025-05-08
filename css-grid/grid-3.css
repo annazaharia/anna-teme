@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  padding: 15px;
+  grid-template-columns: 10% 45% 45%;
+  width: 900px;
+  height: 870px;
+  background-color: rgba(66, 66, 66, 0.7);
+}
+
+.application {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  gap: 10px;
+}
+
+.first {
+  display: grid;
+  grid-template-rows: 50% 10% 10% 10% 10% 10%;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.first > i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.second .application img {
+  background-color: #0078d7;
+  width: 30px;
+  height: 30px;
+  padding: 8px 7px;
+}
+
+.third h3 {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.applications {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 6px;
+}
+
+.applications:last-child {
+  margin-top: 20px;
+}
+
+.applications .application {
+  position: relative;
+  background-color: #0078d7;
+  padding: 20px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.applications .application h2 {
+  position: absolute;
+  font-weight: 400;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.applications .application img {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.applications .application p {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: calc(50% - 20px);
+}
+
+.bg-img {
+  width: 126px;
+  height: 100px;
+}
+
+.application.full img {
+  width: 126px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.application.bg-color {
+  background-color: #ff0000;
+}
+
+.application.bg-color-2 {
+  background-color: #000000;
+}
+
+.application.bg-color-2 h3 {
+  color: #ff0000;
+  text-align: center;
+}
+
+.application.bg-color-1 {
+  background-color: #404040;
+}
+
+.scroll-section {
+  width: 380px;
+  height: 850px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: scroll;
+  background-color: rgba(66, 66, 66, 0.7);
+}
+
+.temp-left {
+  position: relative;
+  left: 0;
+  top: 35%;
+  bottom: 35%;
+}
+
+.temp-right {
+  position: relative;
+  left: 0;
+  top: 35%;
+  bottom: 35%;
+}
+
+.application.full p {
+  top: 0;
+}
