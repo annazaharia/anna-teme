@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.photo-giraffe {
+  width: 500px;
+  height: 300px;
+  margin: 50px 50px;
+}
+
+.photo-giraffe {
+  border: 10px dotted rgb(197, 23, 23);
+  padding: 15px;
+  background: rgb(32, 71, 199);
+  background-clip: content-box;
+}
