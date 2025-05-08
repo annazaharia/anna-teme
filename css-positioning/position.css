@@ -1,0 +1,42 @@
+body {
+  color: #000000;
+  font-size: 18px;
+}
+
+.parent {
+  position: relative;
+  height: 300px;
+  width: 800px;
+  background-color: #bbc9b8;
+  border: 10px dotted #845e74;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.child {
+  height: 200px;
+  width: 300px;
+  border-radius: 5%;
+  border: 5px dashed #845e74;
+  text-align: center;
+}
+.child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #508e8a;
+}
+
+.child2 {
+  position: absolute;
+  z-index: 3;
+  bottom: -10px;
+  background-color: #a391a4;
+  left: 250px;
+}
+.child3 {
+  background-color: #a8a97c;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
